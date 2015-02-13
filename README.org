@@ -1,0 +1,51 @@
+# STORY-TEMPLATE-VERSION: 4.3.0
+
+* Knowledge map
+
+  - Learners _expect_ to have an estimation of their degree of knowledge mastery
+    _so that_ they can take informed decisions wrt choosing what to learn/review
+    next.  Goal: minimize learning time.
+
+
+
+** Context
+
+   - Version: 0.0.0
+
+   - Contribution policy: [[http://rfc.zeromq.org/spec:22][C4.1]]
+
+   - Project style guide: [[https://github.com/nomosyn/resources][Coding style]]
+
+   - short name: kmap
+
+   - abbreviation: kmap
+
+   - Licensed under: [[https://www.mozilla.org/MPL/2.0/][MPLv2]]
+
+   - Contributors:
+       - Full name: Pierre-Henry Fröhring, contact: frohring.pierrehenry@gmail.com
+
+
+
+*** Definitions
+
+
+
+** Init State
+
+   - NNotes has no way to give learners an estimate of their degree of mastery
+     of their knowledge.
+
+
+
+** Problem
+
+   - Minimizing learning time is both an expectation from learers/authors and a
+     claim of NNotes.  NNotes cannot avoid this one!
+
+
+
+** End State
+
+   - NNotes offers a knowledge map that let users visualize their degree of
+     mastery of knowledge and rank them.
